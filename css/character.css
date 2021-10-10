@@ -1,0 +1,22 @@
+/* character css */
+
+#character{}
+#character .wrap{width: 960px; height: auto; margin: 0 auto; padding: 0 20px; }
+#character .wrap .box{margin: 20px 0; display: flex; width: 100%; height: auto; border-bottom: 1px solid #000; padding-bottom: 20px;}
+#character .wrap .box .img{width:30%; height: 260px;background-size: cover; background-position: 50% 50%; display: block; margin-right: 20px;}
+
+/* #character .wrap .box:nth-child(1) .img{ background-image: url(../img/cha_01.jpg);}
+#character .wrap .box:nth-child(2) .img{ background-image: url(../img/cha_02.jpg);}
+#character .wrap .box:nth-child(3) .img{ background-image: url(../img/cha_03.jpg);}
+#character .wrap .box:nth-child(4) .img{ background-image: url(../img/cha_05.jpg);} */ */
+
+
+#character .wrap .box .txt_part{padding-top: 10px; width: 70%; height: auto; position: relative;}
+#character .wrap .box .txt_part h2{font-size: 18px; color: #1f232f; font-weight: normal; line-height: 20px; padding-top: 20px;}
+#character .wrap .box .txt_part p:nth-of-type(1) {padding-top: 50px;}
+#character .wrap .box .txt_part p{font-size: 24px; color: #1f232f; text-align: center; } 
+
+
+#character .wrap .box:nth-child(2) .txt_part p{line-height: 100px;}
+#character .wrap .box:nth-child(3) .txt_part p{line-height: 100px;}
+#character .wrap .box:nth-child(4) .txt_part p{line-height: 100px;}
